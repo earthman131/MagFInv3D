@@ -1,6 +1,8 @@
 # MagFInv3D
 
-A wavenumber-domain iterative approach for 3D imaging of magnetic anomalies and gradients
+A wavenumber-domain iterative approach for 3D imaging of magnetic anomalies and gradients.
+
+Developed by Lianghui Guo and Yatong Cui.
 
 # Prerequisites
 
@@ -20,7 +22,7 @@ Cui Y T, Guo L H. A wavenumber-domain iterative approach for 3D imaging of magne
 
 # License
 
-GMCurvature is an open source project under the GNU General Public License v3.0. It is a free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+MagFInv3D is an open source project under the GNU General Public License v3.0. It is a free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
 # All rights reserved：
 
