@@ -1,9 +1,18 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% A wavenumber-domain iterative approach for 3D imaging of magnetic anomalies and gradients
+% Author: Yatong Cui, Lianghui Guo (guolh@cugb.edu.cn)
+% Organization: China University of Geosciences (Beijing), School of Geophysics and Information Technology
+% Compiled version: MATLAB R2017b
+% Reference:
+%       Cui Y T, Guo L H. A wavenumber-domain iterative approach for 3D imaging of magnetic
+%       anomalies and gradients with depth constraints. Journal of Geophysics and Engineering, 
+%       2019, 16(6): 1032-1047.
 % Description of the input parameters: 
 %       infile_ano: observed anomaly, unit: nT
-%       inclination, declinationï¼šgeomagnetic inclination and declination 
+%       inclination, declination£ºgeomagnetic inclination and declination 
 %                  The direction of magnetization is consistent with the direction of geomagnetic field
-%       n: power of vertical derivative, nâˆˆ[1,10]
-%       N: depth scaling factorï¼ŒNâ‰¥1
+%       n: power of vertical derivative, n¡Ê[1,10]
+%       N: depth scaling factor£¬N¡Ý1
 %       zmin, zmax: range of imaging depth direction
 %       dz: spacing of depth direction
 %       iter: number of iterations
@@ -14,14 +23,14 @@
 %       outfile_rms: root mean square file, unit: nT
 %       outfile_res: residual anomaly file, unit: nT
 %       outfile_for: calculated anomaly file, unit: nT
-% Description of primary identifiersï¼š
+% Description of primary identifiers£º
 %       x, y: x, y verctor
 %       nx, ny: number of points in x and y directions
 %       dx, dy: spacing in x and y directions
 %       npts: extension points
 %       u0: vacuum magnetic permeability, unit: Henry/m
-%       Fï¼šgeomagnetic field direction vector
-%       Mï¼šmagnetization direction vector
+%       F£ºgeomagnetic field direction vector
+%       M£ºmagnetization direction vector
 %       kx, ky, k: wavenumber
 %       obs: observed anomaly
 %       cal: calculated anomaly
